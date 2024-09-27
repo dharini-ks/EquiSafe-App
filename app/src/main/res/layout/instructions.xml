@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Top Center TextView -->
+    <TextView
+        android:id="@+id/topCenterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:gravity="center"
+        android:text="HOW TO USE EQUISAVE APP"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <!-- Middle TextView -->
+    <TextView
+        android:id="@+id/middleTextView"
+        android:layout_width="382dp"
+        android:layout_height="226dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:lineSpacingExtra="4dp"
+        android:text="1. SOS\n\nIn an Emergency:\n\n• Open the EquiSave app.\n• Tap the SOS button on the home screen.\n• Your location will be sent to emergency contacts and local authorities.\n• The app will also activate a loud alarm to attract attention.\n\n2. Live Location Tracking\n\nTo Share Your Location:\n\n• Go to the Live Location Tracking feature from the main menu.\n• Tap Start Tracking to share your live location with selected contacts.\n• You can stop sharing your location by tapping Stop Tracking.\n\n3. Find Nearby Police Stations\n\nTo Locate Police Stations:\n\n• Open the Find Nearby Police Stations feature.\n• The app will use your current location to display a list of nearby police stations.\n• Tap on any police station to view its details and get directions."
+        android:textColor="#333333"
+        android:textSize="10sp" />
+
+    <!-- ImageView Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_23"
+            android:contentDescription="Image 1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_24"
+            android:contentDescription="Image 24" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_25"
+            android:contentDescription="Image 3" />
+
+    </LinearLayout>
+
+    <!-- Bottom TextView -->
+    <TextView
+        android:id="@+id/bottomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:lineSpacingExtra="2dp"
+        android:text="4. Trusted Contacts\n\nTo Add Trusted Contacts:\n\n• Navigate to the Trusted Contacts section.\n• Tap Add Contact and enter the contact's details.\n• You can add phone numbers and email addresses.\n• Save the contact, and they will be alerted in case of emergencies.\n\n5. Support\n\nFor Assistance:\n\n• Access the Support section from the main menu.\n• Browse through various support options like Police, Mental, Medical, and Legal Support.\n• Tap on any section to get more details and access resources.\n\n6. Tips and Tricks\n\nFor Safety Tips:\n\n• Go to the Tips and Tricks section.\n• Read through practical safety advice and emergency preparedness tips.\n• You can also view images and guidelines for quick reference.\n\n7. Shop\n\nTo Purchase Safety Products:\n\n• Open the Shop feature from the main menu.\n• Browse through available safety products like alarms, self-defense tools, and personal safety apps.\n• Tap on any product to view details and make a purchase.\n\nAdditional Information\n\n• Notifications: Ensure that notifications are enabled to receive alerts and updates.\n• Permissions: Grant necessary permissions for location access and contacts to fully utilize the app’s features.\n• Support: For any app-related issues, visit the Support section or contact our support team through the app.\n• Stay safe with EquiSave!"
+        android:textColor="#666666"
+        android:textSize="10sp" />
+
+</LinearLayout>

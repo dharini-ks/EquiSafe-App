@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- First TextView centered -->
+    <TextView
+        android:id="@+id/topTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:text="QUICK TIPS AND TRICKS"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <!-- Second TextView with proper text alignment and wrapping -->
+    <TextView
+        android:id="@+id/topTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:text="Trust Your Instincts: If something feels off, trust your gut and remove yourself from the situation as quickly as possible.\n\nBe Aware of Your Surroundings: Stay alert, especially in unfamiliar or isolated areas. Avoid distractions like looking at your phone while walking alone.\n\nUse Personal Safety Apps: Install apps that allow you to quickly alert friends or authorities if you're in danger. Some apps also include features like location tracking.\n\nCarry a Personal Alarm: A small personal alarm or whistle can draw attention in an emergency, potentially deterring an attacker.\n\nPractice Self-Defense: Consider taking a self-defense class to learn basic techniques for protecting yourself. Knowing how to defend yourself can boost your confidence and preparedness."
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <!-- ImageView centered -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="163dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Image description"
+        android:src="@drawable/img_22" />
+
+    <!-- Bottom TextView with proper text alignment and wrapping -->
+    <TextView
+        android:id="@+id/bottomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:text="Set Up Emergency Contacts: Designate a few trusted people as emergency contacts who can quickly check on you or come to your aid if needed.\n\nUse Public Transport Wisely: If using public transport, choose well-lit and populated stations or stops. Be cautious when accepting rides from strangers.\n\nLearn Basic First Aid: Knowing basic first aid can be helpful in emergency situations, even if it's just to administer immediate help before professional assistance arrives.\n\nBe Cautious with Drinks: Never leave your drink unattended, and be wary of accepting drinks from strangers.\n\nCarry a Self-Defense Tool: If legal in your area, consider carrying pepper spray or another legal self-defense tool. Learn how to use it properly.\n\nSeek Help Immediately: If you feel threatened, don't hesitate to seek help from others around you or call emergency services immediately."
+        android:textColor="#666666"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/topTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:gravity="center"
+        android:text="POLICE SUPPORT"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/middleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:text="We are here to assist you in emergencies. In times of crisis, law enforcement plays a key role in ensuring safety. EquiSafe provides quick access to police services so that you can reach out when it's most crucial. Whether it's reporting harassment, an assault, or any other emergency, our platform allows you to instantly connect with authorities to get help fast. "
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp"
+    android:lineSpacingMultiplier="1.1" />
+
+    <ImageView
+        android:id="@+id/supportImageView"
+        android:layout_width="363dp"
+        android:layout_height="174dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Police Support Image"
+        android:src="@drawable/pic1" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="282dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:lineSpacingExtra="4dp"
+        android:lineSpacingMultiplier="1.1"
+        android:text="What We Offer:\n\nOne-Tap Emergency Calls: Easily reach local police with just one tap. Your location is automatically shared, enabling faster response times.\nPre-Set Emergency Contacts: Save emergency numbers in advance for quick access during critical situations.\nLocation-Based Police Stations: Get information about the nearest police stations and directions to reach them quickly.\nSOS Alerts: Activate the SOS feature to alert local authorities and your emergency contacts simultaneously, along with your live location.\n\nKnow Your Rights:\n\nUnderstanding how to interact with law enforcement is essential. Access guides on what to do when reporting a crime, knowing your rights during an arrest, and what to expect from law enforcement in different regions."
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/bottomTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:text="For immediate assistance, dial 911."
+        android:textSize="18sp" />
+
+</LinearLayout>

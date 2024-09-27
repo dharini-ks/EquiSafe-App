@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="392dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:text="Verify your Email Address"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="384dp"
+        android:layout_height="226dp"
+        app:srcCompat="@drawable/email" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/places_autocomplete_search_input_padding"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:text="To start using EquiSave , confirm your emailAdress with the email we sent to"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="379dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Email Address" />
+
+    <Button
+        android:id="@+id/btnSendOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send OTP"
+        />
+
+    <Button
+        android:id="@+id/btnVerifyOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify Email"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

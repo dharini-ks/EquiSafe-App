@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slanted_background">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:text="WELCOME"
+        android:textColor="@color/black"
+        android:textSize="34dp" />
+
+    <!-- Image Placeholder -->
+    <ImageView
+        android:id="@+id/illustration"
+        android:layout_width="286dp"
+        android:layout_height="208dp"
+        android:layout_below="@id/welcome_text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="44dp"
+        android:src="@drawable/img" />
+
+    <!-- Bottom Section with Text, Button, and Dots -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Description Text -->
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="329dp"
+            android:layout_height="164dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/league_spartan_semibold"
+            android:paddingTop="20dp"
+            android:text="Welcome to EquiSafe
+Your hub for safe, inclusive spaces. With real-time location tracking, curated safe spots, and community reviews, EquiSafe ensures your safety while promoting equality and inclusivity.
+
+Stay safe. Stay equal. Welcome to EquiSafe."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- Next Button -->
+
+        <!-- Dots for Page Indicator -->
+        <Button
+            android:id="@+id/btnnext"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="22dp"
+            android:backgroundTint="#4B0857"
+            android:fontFamily="@font/league_spartan_semibold"
+            android:shadowColor="@color/black"
+            android:text="NEXT"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sample"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBmo0VrsM-zpzd9ALE6I-yH6AYUAL9sX8s"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <!-- Only MainActivity is included as the launcher -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Sample">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".OtpActivity"></activity>
+        <activity android:name=".Swip1"></activity>
+        <activity android:name=".Swip2"></activity>
+        <activity android:name=".Swip3"></activity>
+        <activity android:name=".Swip4"></activity>
+        <activity android:name=".MapsActivity"></activity>
+        <activity android:name=".SafePlacesActivity"></activity>
+        <activity android:name=".ContactBookActivity"></activity>
+        <activity android:name=".UserProfileActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".SupportActivity"></activity>
+        <activity android:name=".PoliceSupportActivity"></activity>
+        <activity android:name=".MedicalSupportActivity"></activity>
+        <activity android:name=".MentalSupportActivity"></activity>
+        <activity android:name=".LegalSupportActivity"></activity>
+        <activity android:name=".TrainingVideosActivity"></activity>
+        <activity android:name=".TipsActivity"></activity>
+        <activity android:name=".InstructionActivity"></activity>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">sample</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_key">YOUR_API_KEY_HERE</string>
+    <string name="title_activity_safe_places">title_activity_safe_places</string>
+    <string name="title_activity_contact_book">title_actvity_contact_book\n</string>
+    <string name="title_activity_otp">title_activity_otp\n</string>
+    <string name="title_activity_login" />
+    <string name="title_activity_sign_up">title_activity_sign_up</string>
+</resources>

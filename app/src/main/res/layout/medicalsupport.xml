@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Top Heading TextView -->
+    <TextView
+        android:id="@+id/topTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:gravity="center"
+        android:text="MEDICAL SUPPORT"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <!-- Middle Description TextView -->
+    <TextView
+        android:id="@+id/middleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:lineSpacingExtra="4dp"
+        android:lineSpacingMultiplier="1.1"
+        android:text="Get Immediate Medical Help and Physical Support: Your physical safety is our top priority. Whether you’ve been injured or need emergency medical assistance, EquiSafe ensures you get the help you need without delay."
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <!-- ImageView for Support Image -->
+    <ImageView
+        android:id="@+id/supportImageView"
+        android:layout_width="345dp"
+        android:layout_height="187dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Medical Support Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_32" />
+
+    <!-- Detailed Info TextView -->
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="370dp"
+        android:layout_height="315dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:lineSpacingExtra="4dp"
+        android:lineSpacingMultiplier="1.1"
+        android:text="What We Offer:\n\nEmergency Medical Contacts: Direct access to nearby hospitals, clinics, and emergency healthcare providers. EquiSafe helps you find the nearest medical facilities and get directions instantly.\n\nFirst-Aid Guides: Equip yourself with first-aid knowledge to treat common injuries like cuts, sprains, and burns. Quick tips on performing CPR, stopping bleeding, and handling shock are also available.\n\nAmbulance Services: Connect to ambulance services directly from the app to ensure quick transportation to a healthcare facility in emergencies.\n\nList of Healthcare Providers: A comprehensive list of verified healthcare professionals who can provide physical and mental aid based on your needs.\n\nStay Prepared: Being ready for any situation is essential. Access preparation guides for handling medical emergencies, building a personal first-aid kit, and how to react during critical health issues."
+        android:textSize="14sp" />
+
+    <!-- Emergency Hotline TextView -->
+    <TextView
+        android:id="@+id/bottomTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="For immediate assistance, dial 104."
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+
+</LinearLayout>

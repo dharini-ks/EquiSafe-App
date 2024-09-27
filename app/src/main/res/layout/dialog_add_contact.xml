@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for Contact Name -->
+    <EditText
+        android:id="@+id/etContactName"
+        android:layout_width="389dp"
+        android:layout_height="73dp"
+        android:hint="Contact Name" />
+
+    <!-- EditText for Contact Number -->
+    <EditText
+        android:id="@+id/etContactNumber"
+        android:layout_width="382dp"
+        android:layout_height="73dp"
+        android:hint="Contact Number"
+        android:inputType="phone" />
+
+    <!-- Button to create the contact -->
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="123dp"
+        android:layout_height="51dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"
+        android:text="Create" />
+</LinearLayout>

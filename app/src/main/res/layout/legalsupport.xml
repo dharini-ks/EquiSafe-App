@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Top Heading TextView -->
+    <TextView
+        android:id="@+id/topTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:gravity="center"
+        android:text="LEGAL SUPPORT"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <!-- Middle Description TextView -->
+    <TextView
+        android:id="@+id/middleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:lineSpacingExtra="4dp"
+        android:lineSpacingMultiplier="1.1"
+        android:text="Empowering You with Legal Assistance\n\nLegal issues can arise when dealing with personal safety, whether it's filing a police report, dealing with harassment cases, or pursuing justice. EquiSafe helps you connect with trusted legal advisors who specialize in safety and gender-related issues."
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <!-- ImageView for Support Image -->
+    <ImageView
+        android:id="@+id/supportImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Legal Support Image"
+        android:scaleType="centerInside"
+        android:src="@drawable/legal" />
+
+    <!-- Detailed Info TextView -->
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="295dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:lineSpacingExtra="4dp"
+        android:lineSpacingMultiplier="1.1"
+        android:text="What We Offer:\n\nVerified Legal Contacts: Access a network of legal professionals specializing in women’s rights, gender equality, personal safety, and harassment cases.\n\nStep-by-Step Guides: Find easy-to-follow instructions on filing complaints, obtaining restraining orders, and understanding the legal system.\n\nFree Legal Aid Resources: Explore resources for free or low-cost legal aid services in your area.\n\nConsultations and Appointments: Schedule legal consultations through the app and receive advice on your rights and options in times of distress.\n\nLearn More: Equip yourself with legal knowledge on self-defense laws, workplace harassment, domestic violence, and more. Know when and how to take legal action to protect your rights."
+        android:textSize="14sp" />
+
+    <!-- Emergency Hotline TextView -->
+    <TextView
+        android:id="@+id/bottomTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="For immediate assistance, dial 080-22111714."
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+
+</LinearLayout>

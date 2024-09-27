@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Top Heading TextView -->
+    <TextView
+        android:id="@+id/topTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:gravity="center"
+        android:text="MENTAL SUPPORT"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <!-- Middle Description TextView -->
+    <TextView
+        android:id="@+id/middleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:lineSpacingMultiplier="1.1"
+        android:text="In moments of fear, stress, or trauma, mental health support can make all the difference. EquiSafe connects you with mental health professionals and counselors who specialize in trauma care, stress management, and emotional well-being."
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <!-- ImageView for Support Image -->
+    <ImageView
+        android:id="@+id/supportImageView"
+        android:layout_width="363dp"
+        android:layout_height="174dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Mental Health Support Image"
+        android:src="@drawable/mental" />
+
+    <!-- Detailed Info TextView -->
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="362dp"
+        android:layout_height="307dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:lineSpacingExtra="4dp"
+        android:lineSpacingMultiplier="1.1"
+        android:text="What We Offer:\n\nCounselor and Therapist Contacts: Direct access to trusted mental health professionals, including counselors, psychologists, and therapists specializing in gender-based trauma and personal safety.\n\nMental Health Hotlines: Call or message certified mental health professionals or emotional support hotlines for immediate guidance and help during times of crisis.\n\nMental Health Resources: Find articles, guides, and exercises on managing anxiety, coping with stress, and navigating traumatic experiences. Use self-help tools like breathing exercises, meditation guides, and journaling prompts to regain balance.\n\nCommunity Support: Join peer-support communities where individuals share their experiences and offer each other encouragement and emotional assistance.\n\nTake Care of Yourself: Your mental health is as vital as your physical safety. Learn practical techniques for reducing anxiety, overcoming fear, and building resilience. Access resources designed to help you stay emotionally strong."
+        android:textSize="14sp" />
+
+    <!-- Emergency Hotline TextView -->
+    <TextView
+        android:id="@+id/bottomTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For immediate assistance, dial 080-22111714."
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAlignment="center" />
+</LinearLayout>

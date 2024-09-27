@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "448748266897",
+    "project_id": "safeapp-b4fb7",
+    "storage_bucket": "safeapp-b4fb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448748266897:android:80a0722f22addd713de630",
+        "android_client_info": {
+          "package_name": "com.example.sample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAYvuVTsq_tfzpSBa8yV6aBuCmhO7mqUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

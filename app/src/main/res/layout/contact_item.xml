@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="16dp"
+    app:cardBackgroundColor="#D7BFDC"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- TextView for displaying contact name -->
+        <TextView
+            android:id="@+id/tvContactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/btnCall"
+            android:layout_marginEnd="16dp"
+            android:text="Contact Name"
+            android:padding="@dimen/places_autocomplete_search_input_padding"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- TextView for displaying contact number -->
+        <TextView
+            android:id="@+id/tvContactNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvContactName"
+            android:layout_marginTop="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/btnCall"
+            android:layout_marginEnd="16dp"
+            android:text="Contact Number"
+            android:padding="@dimen/places_autocomplete_search_input_padding"
+            android:textSize="14sp" />
+
+        <!-- Call Button -->
+
+        <!-- Edit Button -->
+
+        <!-- Delete Button -->
+
+        <ImageButton
+            android:id="@+id/btnCall"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="4dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Call"
+            android:src="@drawable/img_13" />
+
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-8dp"
+            android:layout_toStartOf="@id/btnCall"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Edit"
+            android:src="@drawable/img_14" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="85dp"
+            android:layout_height="74dp"
+            android:layout_marginEnd="-25dp"
+            android:layout_toStartOf="@id/btnEdit"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Delete"
+            android:src="@drawable/img_15" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

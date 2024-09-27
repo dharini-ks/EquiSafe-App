@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#97E2DDE3">
+
+    <ImageView
+        android:id="@+id/imageViewGif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/women"
+        />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="285dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="199dp"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:text="EQUISAFE" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <color name="black">#070404</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_pink">#EBAFCF</color>
+    <color name="text_color">#9B5571</color>
+    <color name="button_purple">#C27E97</color>
+    <color name="dot_inactive">#FFFFFF</color>
+    <color name="dot_active">#9B5571</color>
+    <color name="purple">#B69ABA</color>
+    <color name="light">#D9D9D9</color>
+    <color name="p1">#711F7B</color>
+    <color name="shadow">#605D5D</color>
+    <color name="red">#BF0101</color>
+</resources>
